@@ -54,7 +54,7 @@ app.get('/profile', checkAuthenticated, (req, res)=>{
 })
 
 app.get('/onlyioet', checkDomain, (req,res)=>{
-    res.send('This route is for ioet members only')
+    res.send('Welcome to ioet')
 })
 
 app.get('/logout', (req, res)=>{
